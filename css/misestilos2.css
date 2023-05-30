@@ -1,0 +1,51 @@
+p, li, h1{
+    color: red;
+}
+
+p.texto1{
+    font-size: 40px;
+}
+
+#parrafo2{
+    color: green;
+    text-align: center;
+}
+
+hgroup h1{
+    font-size: 60;
+    text-align: center;
+}
+
+ul>li{
+    color: purple;
+}
+
+h1+h2{
+    color: blue;
+}
+
+img~p{
+    text-align: justify;
+}
+
+li:nth-child(2){
+    font-size: 30px
+    ;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:link{
+    color: #FF0000;
+}
+
+a:visited{
+    color:#00FF00;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: indigo;
+}
